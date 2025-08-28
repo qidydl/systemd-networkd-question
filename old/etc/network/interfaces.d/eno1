@@ -1,0 +1,6 @@
+# Port 1 - we want this to be internal
+auto eno1
+iface eno1 inet static
+        address 10.0.0.1/8
+iface eno1 inet6 static
+        address fd96:55bb:ef1a:4455::1/64

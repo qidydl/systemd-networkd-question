@@ -1,0 +1,6 @@
+# Port 2 - we want this to be external
+allow-hotplug eno2
+iface eno2 inet dhcp
+iface eno2 inet6 auto
+        dhcp 1
+        request_prefix 1

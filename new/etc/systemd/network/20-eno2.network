@@ -1,0 +1,9 @@
+[Match]
+Name=eno2
+
+[Network]
+Description=WAN
+DHCP=yes
+
+[DHCPv6]
+PrefixDelegationHint=::/64
